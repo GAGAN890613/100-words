@@ -1,23 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>100 Words — Banking Vocabulary Quiz</title>
-<meta name="description" content="100 high-frequency banking exam vocabulary words with quiz, revision and progress tracking.">
+<meta name="description" content="100 high-frequency banking exam vocabulary words with audio, quiz and revision.">
 <style>
-:root{--bg:#090b10;--panel:#11151d;--panel2:#171c26;--text:#f4f7fb;--muted:#9aa5b5;--line:#27303d;--accent:#7c9cff;--good:#43d19e;--bad:#ff6b7a;--shadow:0 18px 55px #0008}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 15% 0,#18213b 0,#090b10 35%);color:var(--text);font:15px/1.55 Inter,system-ui,-apple-system,Segoe UI,sans-serif}button{font:inherit}
-.wrap{max-width:1100px;margin:auto;padding:28px 18px 60px}.top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.brand h1{margin:0;font-size:32px}.brand p{color:var(--muted);margin:5px 0}.badge{padding:7px 11px;border:1px solid var(--line);border-radius:999px;color:#cbd5e1;background:#ffffff06}
-nav{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}.tab{border:1px solid var(--line);background:#ffffff04;color:#cbd5e1;padding:10px 15px;border-radius:10px;cursor:pointer}.tab.active{background:#26365f;border-color:#5069a9;color:white}
-.card{background:linear-gradient(180deg,#151a23,#10141b);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:24px}.hidden{display:none}
-.hero{display:grid;grid-template-columns:1.5fr .8fr;gap:18px}.hero h2{font-size:26px;margin:0 0 8px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#ffffff05;border:1px solid var(--line);border-radius:13px;padding:15px}.stat b{display:block;font-size:24px}.stat span{color:var(--muted);font-size:12px}
-.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.primary,.secondary{border:0;border-radius:11px;padding:12px 17px;cursor:pointer}.primary{background:var(--accent);color:#081022;font-weight:700}.secondary{background:#ffffff0a;color:#e7edf6;border:1px solid var(--line)}
-.quiz-head{display:flex;justify-content:space-between;gap:15px;align-items:center}.progress{height:7px;background:#ffffff0a;border-radius:99px;overflow:hidden;margin:15px 0 24px}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#a68cff);width:0}.qmeta{color:var(--muted);font-size:13px}.question{font-size:25px;font-weight:700;margin:18px 0 22px}.options{display:grid;grid-template-columns:1fr 1fr;gap:12px}.opt{padding:16px;text-align:left;background:#ffffff05;color:#eef2f7;border:1px solid var(--line);border-radius:13px;cursor:pointer;min-height:65px}.opt:hover{border-color:#6279b2;background:#ffffff09}.opt.correct{border-color:var(--good);background:#43d19e12}.opt.wrong{border-color:var(--bad);background:#ff6b7a10}.opt:disabled{cursor:default}.feedback{margin-top:15px;padding:14px;border-radius:12px;background:#ffffff06;color:#cbd5e1}.nextrow{display:flex;justify-content:space-between;align-items:center;margin-top:18px}.timer{font-variant-numeric:tabular-nums;color:#dce5ff}
-.result{text-align:center}.score{font-size:54px;font-weight:800}.review{display:grid;gap:9px;margin-top:20px}.review div{padding:12px;border:1px solid var(--line);border-radius:10px;text-align:left}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.word{padding:17px;border:1px solid var(--line);border-radius:13px;background:#ffffff04}.word h3{margin:0 0 5px}.word p{margin:3px 0;color:#b8c2d1}.word small{color:#7f8ba0}
-.search{width:100%;padding:13px 15px;background:#ffffff06;border:1px solid var(--line);border-radius:11px;color:white;margin-bottom:14px}.plan{width:100%;border-collapse:collapse}.plan td,.plan th{padding:11px;border-bottom:1px solid var(--line);text-align:left}.muted{color:var(--muted)}
-@media(max-width:750px){.hero{grid-template-columns:1fr}.options,.grid{grid-template-columns:1fr}.top{display:block}.question{font-size:21px}}
+:root{--bg:#080b12;--panel:#111722;--panel2:#171f2d;--text:#f6f8fc;--muted:#9aa7ba;--line:#293447;--accent:#7c9cff;--accent2:#a98cff;--good:#39d39b;--bad:#ff6b7a;--warn:#ffd166;--shadow:0 20px 60px #0009}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% 0,#1b2a50 0,#080b12 38%);color:var(--text);font:15px/1.6 Inter,system-ui,-apple-system,Segoe UI,sans-serif}button,input{font:inherit}button{cursor:pointer}
+.wrap{max-width:1120px;margin:auto;padding:24px 16px 70px}.top{display:flex;justify-content:space-between;gap:18px;align-items:center}.brand h1{margin:0;font-size:34px;letter-spacing:-1px}.brand p{margin:3px 0;color:var(--muted)}.badge{border:1px solid #394760;background:#ffffff08;border-radius:999px;padding:7px 12px;color:#d9e1ef;font-size:12px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.tab{border:1px solid var(--line);background:#ffffff05;color:#cbd5e1;padding:10px 15px;border-radius:11px}.tab.active{background:linear-gradient(135deg,#334b89,#55418c);border-color:#687fc5;color:#fff}
+.card{background:linear-gradient(145deg,#151c28,#0f141d);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:24px}.hidden{display:none}.hero{display:grid;grid-template-columns:1.5fr .8fr;gap:18px}.hero h2{font-size:28px;margin:0 0 8px}.muted{color:var(--muted)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.primary,.secondary{border-radius:12px;padding:12px 17px}.primary{border:0;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#080b12;font-weight:800}.secondary{border:1px solid var(--line);background:#ffffff07;color:#edf2fa}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#ffffff05;border:1px solid var(--line);border-radius:14px;padding:15px}.stat b{display:block;font-size:25px}.stat span{font-size:12px;color:var(--muted)}
+.quiz-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.qmeta{color:var(--muted);font-size:13px}.timer{font-weight:800;color:#dfe7ff;font-variant-numeric:tabular-nums}.progress{height:8px;background:#ffffff09;border-radius:99px;overflow:hidden;margin:14px 0 25px}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .25s}.question{font-size:25px;font-weight:800;margin:18px 0 22px}.options{display:grid;grid-template-columns:1fr 1fr;gap:12px}.opt{position:relative;padding:16px;text-align:left;background:#ffffff05;color:#eef3fa;border:1px solid var(--line);border-radius:14px;min-height:70px}.opt:hover{border-color:#7085bd;background:#ffffff09}.opt.correct{border-color:var(--good);background:#39d39b12}.opt.wrong{border-color:var(--bad);background:#ff6b7a12}.opt:disabled{cursor:default}.feedback{margin-top:16px;padding:15px;border:1px solid var(--line);border-radius:13px;background:#ffffff06}.result{text-align:center}.score{font-size:58px;font-weight:900}.review{display:grid;gap:10px;margin-top:20px}.review div{padding:13px;border:1px solid var(--line);border-radius:12px;text-align:left}
+.search{width:100%;padding:14px 16px;background:#ffffff06;border:1px solid var(--line);border-radius:12px;color:#fff;outline:none;margin-bottom:15px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.word{position:relative;padding:18px;border:1px solid var(--line);border-radius:15px;background:#ffffff04}.word h3{margin:0;font-size:20px}.word p{margin:5px 0;color:#c2ccda}.word small{color:#71809a}.speak{float:right;border:1px solid #3b4960;background:#ffffff08;color:#dce6ff;border-radius:9px;padding:7px 9px}.speak:hover{background:#ffffff12}.plan{width:100%;border-collapse:collapse}.plan td,.plan th{padding:12px;border-bottom:1px solid var(--line);text-align:left}.tag{display:inline-block;margin:7px 0 0;padding:4px 8px;border-radius:999px;background:#7c9cff16;color:#b9c9ff;font-size:11px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.options,.grid{grid-template-columns:1fr}.top{align-items:flex-start}.badge{display:none}.brand h1{font-size:30px}.question{font-size:21px}.card{padding:18px}}
 </style>
 </head>
 <body><div class="wrap">
@@ -25,137 +22,136 @@ nav{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}.tab{border:1px solid var(
 <nav><button class="tab active" data-tab="home">Dashboard</button><button class="tab" data-tab="quiz">Quiz</button><button class="tab" data-tab="words">100 Words</button><button class="tab" data-tab="revision">Revision</button></nav>
 
 <section id="home" class="page">
-<div class="hero"><div class="card"><h2>Turn recognition into recall.</h2><p class="muted">Practice the exact 100-word vocabulary set from your study sheet. Questions rotate across meanings, synonyms, antonyms and examples.</p><div class="actions"><button class="primary" id="start10">Start 10-question quiz</button><button class="secondary" id="start20">Start 20-question quiz</button></div></div>
+<div class="hero"><div class="card"><span class="tag">EXAM MODE</span><h2>Turn recognition into recall.</h2><p class="muted">Master the 100 high-frequency words with natural banking-style sentences, pronunciation practice and timed questions.</p><div class="actions"><button class="primary" id="start10">Start 10-question quiz</button><button class="secondary" id="start20">Start 20-question quiz</button></div></div>
 <div class="card stats"><div class="stat"><b>100</b><span>Words</span></div><div class="stat"><b id="best">0%</b><span>Best accuracy</span></div><div class="stat"><b id="seen">0</b><span>Words practiced</span></div></div></div>
 </section>
 
 <section id="quiz" class="page hidden"><div class="card" id="quizCard"></div></section>
-
 <section id="words" class="page hidden"><div class="card"><input id="search" class="search" placeholder="Search word, meaning, synonym or antonym…"><div id="wordGrid" class="grid"></div></div></section>
-
 <section id="revision" class="page hidden"><div class="card"><h2>7-Day Revision Plan</h2><table class="plan"><tr><th>Day</th><th>Task</th></tr>
-<tr><td>Day 1</td><td>Words 1–15 — Read aloud + write one sentence for 5 words.</td></tr><tr><td>Day 2</td><td>Words 16–30 — Review Day 1 before learning new words.</td></tr><tr><td>Day 3</td><td>Words 31–45 — Cover meanings and recall them from memory.</td></tr><tr><td>Day 4</td><td>Words 46–60 — Practice 10 quick fillers using the words.</td></tr><tr><td>Day 5</td><td>Words 61–75 — Revise synonyms and antonyms.</td></tr><tr><td>Day 6</td><td>Words 76–90 — Do one RC and underline unfamiliar vocabulary.</td></tr><tr><td>Day 7</td><td>Words 91–100 + full revision — Test yourself: meaning, synonym, antonym and usage.</td></tr></table><p class="muted">Exam shortcut: first identify sentence direction — positive/negative, increase/decrease, cause/result or contrast/opposition — then eliminate options by grammar before worrying about the exact dictionary definition.</p></div></section>
+<tr><td>Day 1</td><td>Words 1–15 — Read aloud + write one sentence for 5 words.</td></tr><tr><td>Day 2</td><td>Words 16–30 — Review Day 1 before learning new words.</td></tr><tr><td>Day 3</td><td>Words 31–45 — Cover meanings and recall them from memory.</td></tr><tr><td>Day 4</td><td>Words 46–60 — Practice 10 quick fillers using the words.</td></tr><tr><td>Day 5</td><td>Words 61–75 — Revise synonyms and antonyms.</td></tr><tr><td>Day 6</td><td>Words 76–90 — Do one RC and underline unfamiliar vocabulary.</td></tr><tr><td>Day 7</td><td>Words 91–100 + full revision — Test meaning, synonym, antonym and usage.</td></tr></table><p class="muted">Shortcut: identify sentence direction — positive/negative, increase/decrease, cause/result or contrast/opposition — then use grammar and elimination.</p></div></section>
 </div>
 <script>
 const W=[
-["Adequate","enough; sufficient","sufficient","insufficient","The funds are adequate for the project."],
-["Adverse","harmful; unfavorable","unfavorable","favorable","Adverse weather affected the journey."],
-["Alleviate","make a problem less severe","mitigate","aggravate","The scheme aims to alleviate poverty."],
-["Ambiguous","having more than one meaning","vague","clear","The statement is ambiguous."],
-["Amend","change a rule or document formally","modify","retain","The bank amended its policy."],
-["Anticipate","expect something before it happens","foresee","doubt","Analysts anticipate higher demand."],
-["Apparent","easy to notice; seeming to be true","evident","hidden","The reason became apparent later."],
-["Assert","state something strongly","declare","deny","The report asserts that reforms are needed."],
-["Attain","achieve; reach","achieve","lose","She attained her target."],
-["Augment","increase; make greater","enhance","reduce","The bank plans to augment its capital."],
-["Authentic","genuine; real","genuine","fake","Customers want authentic information."],
-["Bolster","support or strengthen","reinforce","undermine","The move may bolster investor confidence."],
-["Cease","stop","discontinue","continue","The company ceased operations."],
-["Coherent","logical and well connected","logical","incoherent","Her explanation was coherent and clear."],
-["Compel","force someone to do something","force","deter","The rules compel banks to report it."],
-["Comprehensive","complete; covering many aspects","extensive","limited","The report provides a comprehensive review."],
-["Consensus","general agreement","agreement","disagreement","The committee reached a consensus."],
-["Contemplate","consider carefully","consider","ignore","They are contemplating a new strategy."],
-["Contradict","say the opposite of something","oppose","confirm","His statement contradicts the report."],
-["Crucial","extremely important","vital","trivial","Timing is crucial in the decision."],
-["Deter","discourage or prevent","discourage","encourage","Higher penalties may deter fraud."],
-["Diminish","become or make smaller","decrease","increase","The risk gradually diminished."],
-["Disparity","significant difference","inequality","equality","There is a disparity in income levels."],
-["Disseminate","spread information widely","circulate","withhold","The agency disseminates alerts quickly."],
-["Emerge","appear or become known","arise","disappear","New issues may emerge during implementation."],
-["Emphasize","give special importance to","stress","downplay","The notice emphasizes customer safety."],
-["Ensure","make certain","guarantee","jeopardize","Please ensure that the form is complete."],
-["Exacerbate","make a problem worse","aggravate","alleviate","Delays can exacerbate the problem."],
-["Explicit","clearly stated","definite","implicit","The instructions were explicit."],
-["Feasible","possible and practical","viable","impractical","The plan is feasible within the budget."],
-["Fluctuate","rise and fall irregularly","vary","stabilize","Interest rates may fluctuate."],
-["Foster","encourage development","nurture","hinder","The policy fosters innovation."],
-["Fundamental","basic and essential","essential","secondary","Trust is fundamental to banking."],
-["Inevitable","certain to happen","unavoidable","avoidable","Some change is inevitable."],
-["Inhibit","prevent or slow down","restrain","encourage","High costs can inhibit growth."],
-["Impetus","something that encourages action","stimulus","deterrent","The reform gave impetus to investment."],
-["Imply","suggest without saying directly","suggest","state","His words imply a change in policy."],
-["Impose","officially force a rule, tax, or condition","levy","remove","The authority imposed a penalty."],
-["Inadequate","not enough","insufficient","adequate","The evidence was inadequate."],
-["Incumbent","currently holding a position","current","former","The incumbent officer signed the order."],
-["Mitigate","reduce the seriousness of something","lessen","intensify","The steps may mitigate the risk."],
-["Pervasive","present or spreading widely","widespread","limited","Digital payments are pervasive in urban areas."],
-["Plausible","seeming reasonable or possible","credible","implausible","That is a plausible explanation."],
-["Prohibit","officially prevent","ban","permit","The rules prohibit unauthorized access."],
-["Reluctant","unwilling; hesitant","hesitant","willing","He was reluctant to accept the offer."],
-["Robust","strong and able to work well","strong","weak","The system needs robust security."],
-["Scrutiny","careful examination","inspection","neglect","The proposal is under scrutiny."],
-["Substantial","large or important in amount","considerable","insignificant","The bank reported substantial growth."],
-["Tentative","not final; uncertain","provisional","definite","A tentative date was announced."],
-["Undermine","weaken gradually","weaken","strengthen","False information can undermine trust."],
-["Viable","capable of working successfully","feasible","unworkable","The business model is viable."],
-["Vulnerable","easy to harm or attack","exposed","protected","Small firms may be vulnerable to shocks."],
-["Volatile","changing rapidly and unpredictably","unstable","stable","The market remained volatile."],
-["Abate","become less strong or severe","subside","intensify","The pressure began to abate."],
-["Accumulate","collect over time","gather","disperse","Interest can accumulate over time."],
-["Arbitrary","based on personal choice rather than reason","random","reasoned","The decision seemed arbitrary."],
-["Benevolent","kind and well meaning","kind","malevolent","The donor was benevolent."],
-["Curb","control or limit","restrain","encourage","The policy aims to curb inflation."],
-["Deplete","use up a large amount of something","exhaust","replenish","The crisis depleted reserves."],
-["Depict","show or describe","portray","conceal","The chart depicts annual growth."],
-["Derive","get something from a source","obtain","lose","Many terms are derived from Latin."],
-["Discern","notice or understand something with difficulty","detect","overlook","It was hard to discern the pattern."],
-["Disclose","make information known","reveal","conceal","Banks must disclose certain charges."],
-["Elaborate","give more details","explain","summarize","Please elaborate on your point."],
-["Enhance","improve or increase quality/value","improve","impair","The update enhances security."],
-["Exclude","leave out","omit","include","The figure excludes taxes."],
-["Excessive","more than necessary","extreme","moderate","Excessive spending can create pressure."],
-["Flourish","grow or develop successfully","thrive","decline","The sector continues to flourish."],
-["Hinder","make progress difficult","obstruct","facilitate","Poor connectivity can hinder access."],
-["Incentive","something that encourages action","motivation","deterrent","The subsidy is an incentive to invest."],
-["Induce","cause something to happen","cause","prevent","Lower rates may induce borrowing."],
-["Infer","reach a conclusion from evidence","deduce","misinterpret","We can infer the trend from the data."],
-["Integrate","combine into a whole","combine","separate","The app integrates multiple services."],
-["Justify","give a good reason for something","defend","condemn","The data does not justify the claim."],
-["Mandatory","required by rule","compulsory","optional","KYC is mandatory in many processes."],
-["Notion","an idea or belief","idea","fact","The notion was widely discussed."],
-["Obsolete","no longer useful because something newer exists","outdated","modern","The old process is obsolete."],
-["Perceive","notice or understand","recognize","misunderstand","Consumers may perceive the fee as high."],
-["Prevalent","common or widespread","common","rare","The practice is prevalent in the sector."],
-["Prolong","make something last longer","extend","shorten","The delay prolonged the process."],
-["Prudent","careful and sensible","wise","reckless","A prudent investor manages risk."],
-["Rectify","correct a problem","correct","worsen","The bank acted to rectify the error."],
-["Refrain","stop oneself from doing something","abstain","engage","Please refrain from sharing passwords."],
-["Resilient","able to recover quickly","adaptable","fragile","A resilient system can recover from failures."],
-["Retain","keep possession of","preserve","discard","The bank retained the records."],
-["Scrutinize","examine very carefully","inspect","ignore","Officials scrutinize suspicious transactions."],
-["Subsidize","support financially, often by government","fund","tax","The scheme subsidizes eligible loans."],
-["Suppress","stop or reduce something by force/control","restrain","release","The measure was designed to suppress illegal activity."],
-["Sustain","maintain or continue","maintain","discontinue","The firm must sustain growth."],
-["Transparent","open and easy to understand","clear","opaque","The process should be transparent."],
-["Unprecedented","never happened before","extraordinary","ordinary","The economy faced unprecedented disruption."],
-["Utilize","use for a purpose","employ","neglect","The bank utilizes digital tools."],
-["Validate","confirm that something is correct or acceptable","verify","invalidate","The system validates the entered details."],
-["Venture","undertake an uncertain undertaking","enterprise","retreat","Starting a business is a financial venture."],
-["Yield","produce or provide a result","generate","withhold","The investment yielded a steady return."],
-["Constrain","limit or restrict","restrict","free","Budget limits constrain expansion."],
-["Consolidate","combine or strengthen into a whole","combine","divide","The company consolidated its operations."],
-["Violate","break a law, rule, or agreement","breach","obey","Users must not violate the terms."],
-["Withhold","refuse to give or reveal","retain","release","The lender may withhold the payment."],
-["Underscore","emphasize or highlight","highlight","downplay","The data underscores the need for reform."]
+["Adequate","enough; sufficient","sufficient","insufficient","The bank maintained adequate liquidity to meet its short-term obligations."],
+["Adverse","harmful; unfavorable","unfavorable","favorable","Adverse economic conditions reduced demand for new loans."],
+["Alleviate","make a problem less severe","mitigate","aggravate","The new scheme is intended to alleviate the financial burden on low-income households."],
+["Ambiguous","having more than one meaning","vague","clear","The circular was ambiguous, so branches sought clarification from headquarters."],
+["Amend","change a rule or document formally","modify","retain","The regulator decided to amend the guidelines after reviewing the feedback."],
+["Anticipate","expect something before it happens","foresee","doubt","Analysts anticipate stronger credit growth during the next quarter."],
+["Apparent","easy to notice; seeming to be true","evident","hidden","The benefits of digital banking became apparent within a few months."],
+["Assert","state something strongly","declare","deny","The report asserts that stronger controls can reduce operational risk."],
+["Attain","achieve; reach","achieve","lose","The branch worked consistently to attain its annual deposit target."],
+["Augment","increase; make greater","enhance","reduce","The bank plans to augment its capital base to support expansion."],
+["Authentic","genuine; real","genuine","fake","Customers should verify that they are receiving authentic communication from the bank."],
+["Bolster","support or strengthen","reinforce","undermine","Higher capital reserves can bolster the resilience of financial institutions."],
+["Cease","stop","discontinue","continue","The bank asked the customer to cease sharing confidential credentials."],
+["Coherent","logical and well connected","logical","incoherent","The candidate gave a coherent explanation of the financial trend."],
+["Compel","force someone to do something","force","deter","The new regulation may compel banks to strengthen their reporting systems."],
+["Comprehensive","complete; covering many aspects","extensive","limited","The committee conducted a comprehensive review of the loan portfolio."],
+["Consensus","general agreement","agreement","disagreement","The panel reached a consensus on the need for stronger customer protection."],
+["Contemplate","consider carefully","consider","ignore","The bank is contemplating a revision of its digital lending policy."],
+["Contradict","say the opposite of something","oppose","confirm","The latest figures contradict the earlier estimate of declining deposits."],
+["Crucial","extremely important","vital","trivial","Accurate documentation is crucial when processing a high-value transaction."],
+["Deter","discourage or prevent","discourage","encourage","Strict penalties may deter fraudulent transactions."],
+["Diminish","become or make smaller","decrease","increase","Effective risk controls can diminish the likelihood of major losses."],
+["Disparity","significant difference","inequality","equality","The report highlighted a disparity in access to formal credit between regions."],
+["Disseminate","spread information widely","circulate","withhold","Banks use digital channels to disseminate important customer alerts quickly."],
+["Emerge","appear or become known","arise","disappear","New risks may emerge as financial technology develops."],
+["Emphasize","give special importance to","stress","downplay","The circular emphasizes the importance of protecting customer data."],
+["Ensure","make certain","guarantee","jeopardize","Banks must ensure that customer details are recorded accurately."],
+["Exacerbate","make a problem worse","aggravate","alleviate","Repeated delays could exacerbate the customer's financial difficulties."],
+["Explicit","clearly stated","definite","implicit","The notice contains explicit instructions about submitting the application."],
+["Feasible","possible and practical","viable","impractical","The proposal is feasible if the required funding is approved."],
+["Fluctuate","rise and fall irregularly","vary","stabilize","Interest rates can fluctuate in response to changing economic conditions."],
+["Foster","encourage development","nurture","hinder","Financial literacy programs can foster responsible borrowing habits."],
+["Fundamental","basic and essential","essential","secondary","Public confidence is fundamental to the stability of the banking system."],
+["Inevitable","certain to happen","unavoidable","avoidable","Some operational changes are inevitable as technology advances."],
+["Inhibit","prevent or slow down","restrain","encourage","High transaction costs can inhibit the adoption of digital payments."],
+["Impetus","something that encourages action","stimulus","deterrent","The policy provided fresh impetus to financial inclusion efforts."],
+["Imply","suggest without saying directly","suggest","state","The data may imply that customers are shifting toward digital payments."],
+["Impose","officially force a rule, tax, or condition","levy","remove","The authority may impose a penalty for repeated non-compliance."],
+["Inadequate","not enough","insufficient","adequate","Inadequate documentation can delay the processing of a loan application."],
+["Incumbent","currently holding a position","current","former","The incumbent officer is responsible for approving the branch report."],
+["Mitigate","reduce the seriousness of something","lessen","intensify","Insurance and diversification can help mitigate financial risk."],
+["Pervasive","present or spreading widely","widespread","limited","Digital payment systems have become pervasive across urban markets."],
+["Plausible","seeming reasonable or possible","credible","implausible","The auditor considered the explanation plausible after checking the records."],
+["Prohibit","officially prevent","ban","permit","Bank policy may prohibit employees from disclosing customer information."],
+["Reluctant","unwilling; hesitant","hesitant","willing","Some customers were reluctant to adopt unfamiliar digital services."],
+["Robust","strong and able to work well","strong","weak","A robust cybersecurity framework is essential for online banking."],
+["Scrutiny","careful examination","inspection","neglect","The transaction came under close scrutiny because of unusual activity."],
+["Substantial","large or important in amount","considerable","insignificant","The bank made a substantial investment in its digital infrastructure."],
+["Tentative","not final; uncertain","provisional","definite","The committee announced a tentative date for the next review."],
+["Undermine","weaken gradually","weaken","strengthen","Poor communication can undermine customer confidence."],
+["Viable","capable of working successfully","feasible","unworkable","The proposal offers a viable solution to the branch's staffing problem."],
+["Vulnerable","easy to harm or attack","exposed","protected","Customers using weak passwords are vulnerable to account-related fraud."],
+["Volatile","changing rapidly and unpredictably","unstable","stable","A volatile market can increase uncertainty for investors."],
+["Abate","become less strong or severe","subside","intensify","Market pressure began to abate after the policy announcement."],
+["Accumulate","collect over time","gather","disperse","Small unpaid charges can accumulate if they are ignored."],
+["Arbitrary","based on personal choice rather than reason","random","reasoned","The bank should avoid arbitrary decisions when assessing applications."],
+["Benevolent","kind and well meaning","kind","malevolent","The benevolent donor supported a financial literacy initiative."],
+["Curb","control or limit","restrain","encourage","The regulator introduced measures to curb fraudulent lending practices."],
+["Deplete","use up a large amount of something","exhaust","replenish","Unexpected withdrawals can deplete a bank's cash reserves."],
+["Depict","show or describe","portray","conceal","The chart depicts the growth of digital transactions over five years."],
+["Derive","get something from a source","obtain","lose","The bank derives useful insights from customer transaction data."],
+["Discern","notice or understand something with difficulty","detect","overlook","Analysts could discern a gradual change in borrowing patterns."],
+["Disclose","make information known","reveal","conceal","Financial institutions must disclose relevant charges clearly to customers."],
+["Elaborate","give more details","explain","summarize","The manager asked the applicant to elaborate on the source of funds."],
+["Enhance","improve or increase quality/value","improve","impair","The upgrade is expected to enhance the security of online transactions."],
+["Exclude","leave out","omit","include","The reported figure excludes taxes and administrative charges."],
+["Excessive","more than necessary","extreme","moderate","Excessive borrowing can place unnecessary pressure on household finances."],
+["Flourish","grow or develop successfully","thrive","decline","Small businesses can flourish when they receive timely access to credit."],
+["Hinder","make progress difficult","obstruct","facilitate","Poor connectivity can hinder access to digital banking services."],
+["Incentive","something that encourages action","motivation","deterrent","The interest benefit acts as an incentive for customers to maintain savings."],
+["Induce","cause something to happen","cause","prevent","Lower borrowing costs may induce businesses to invest more."],
+["Infer","reach a conclusion from evidence","deduce","misinterpret","From the data, we can infer that digital transactions are increasing."],
+["Integrate","combine into a whole","combine","separate","The new platform integrates payments, statements and customer support."],
+["Justify","give a good reason for something","defend","condemn","The available evidence does not justify the proposed increase in charges."],
+["Mandatory","required by rule","compulsory","optional","Providing valid identification is mandatory for the account-opening process."],
+["Notion","an idea or belief","idea","fact","The notion that cash will disappear completely remains debatable."],
+["Obsolete","no longer useful because something newer exists","outdated","modern","The old manual process has become obsolete after digitization."],
+["Perceive","notice or understand","recognize","misunderstand","Customers may perceive hidden charges as unfair."],
+["Prevalent","common or widespread","common","rare","Digital payment usage is increasingly prevalent among younger customers."],
+["Prolong","make something last longer","extend","shorten","Repeated verification issues can prolong the account-opening process."],
+["Prudent","careful and sensible","wise","reckless","A prudent borrower compares repayment terms before accepting a loan."],
+["Rectify","correct a problem","correct","worsen","The branch acted quickly to rectify the error in the statement."],
+["Refrain","stop oneself from doing something","abstain","engage","Customers should refrain from sharing their PIN with anyone."],
+["Resilient","able to recover quickly","adaptable","fragile","A resilient banking system can recover from unexpected disruptions."],
+["Retain","keep possession of","preserve","discard","Banks must retain certain records for the period required by regulation."],
+["Scrutinize","examine very carefully","inspect","ignore","Officials scrutinize unusual transactions before approving them."],
+["Subsidize","support financially, often by government","fund","tax","Government programs may subsidize loans for eligible sectors."],
+["Suppress","stop or reduce something by force/control","restrain","release","Strong controls can help suppress attempts at unauthorized access."],
+["Sustain","maintain or continue","maintain","discontinue","The institution must sustain service quality while expanding its network."],
+["Transparent","open and easy to understand","clear","opaque","A transparent fee structure helps customers make informed decisions."],
+["Unprecedented","never happened before","extraordinary","ordinary","The banking sector experienced unprecedented growth in digital transactions."],
+["Utilize","use for a purpose","employ","neglect","Branches can utilize digital tools to reduce processing time."],
+["Validate","confirm that something is correct or acceptable","verify","invalidate","The system validates the account details before processing the request."],
+["Venture","undertake an uncertain undertaking","enterprise","retreat","The startup secured funding for its first major business venture."],
+["Yield","produce or provide a result","generate","withhold","The investment is expected to yield a steady return over time."],
+["Constrain","limit or restrict","restrict","free","Limited resources can constrain the bank's expansion plans."],
+["Consolidate","combine or strengthen into a whole","combine","divide","The company decided to consolidate several regional operations."],
+["Violate","break a law, rule, or agreement","breach","obey","Employees must not violate the bank's confidentiality policy."],
+["Withhold","refuse to give or reveal","retain","release","The lender may withhold payment until the required documents are verified."],
+["Underscore","emphasize or highlight","highlight","downplay","The latest figures underscore the importance of improving financial literacy."]
 ];
-let state={mode:"meaning",questions:[],i:0,score:0,answered:false,seconds:20};
-const $=s=>document.querySelector(s);
-const shuffle=a=>[...a].sort(()=>Math.random()-.5);
-function save(){let best=+localStorage.best100||0;localStorage.best100=best;$("#best").textContent=best+"%";$("#seen").textContent=localStorage.seen100||0}
+
+let state={questions:[],i:0,score:0,answered:false,seconds:20};
+const $=s=>document.querySelector(s),shuffle=a=>[...a].sort(()=>Math.random()-.5);
+function speak(text){if(!("speechSynthesis" in window)){alert("Speech is not supported in this browser.");return} speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="en-IN";u.rate=.88;u.pitch=1;speechSynthesis.speak(u)}
+function save(){const best=+localStorage.best100||0;$("#best").textContent=best+"%";$("#seen").textContent=localStorage.seen100||0}
 function show(tab){document.querySelectorAll(".page").forEach(x=>x.classList.add("hidden"));$("#"+tab).classList.remove("hidden");document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.tab===tab));if(tab==="words")renderWords($("#search")?.value||"")}
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>show(b.dataset.tab));
-function makeQuestions(n){state={...state,questions:shuffle(W).slice(0,n),i:0,score:0,answered:false,seconds:20};show("quiz");renderQ()}
-function renderQ(){clearInterval(state.timer);if(state.i>=state.questions.length)return finish();let w=state.questions[state.i], type=shuffle(["meaning","synonym","antonym","example"])[0], opts;
-if(type==="meaning"){state.mode=type;opts=shuffle([w[1],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[1])]);state.correct=w[1];state.prompt="What is the meaning of “"+w[0]+"”?";}
-if(type==="synonym"){state.mode=type;opts=shuffle([w[2],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[2])]);state.correct=w[2];state.prompt="Choose the closest synonym of “"+w[0]+"”."; }
-if(type==="antonym"){state.mode=type;opts=shuffle([w[3],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[3])]);state.correct=w[3];state.prompt="Choose the closest antonym of “"+w[0]+"”."; }
-if(type==="example"){state.mode=type;let candidates=shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3);opts=shuffle([w[4],...candidates.map(x=>x[4])]);state.correct=w[4];state.prompt="Which sentence uses “"+w[0]+"” correctly?";}
+function makeQuestions(n){state={questions:shuffle(W).slice(0,n),i:0,score:0,answered:false,seconds:20};show("quiz");renderQ()}
+function renderQ(){clearInterval(state.timer);if(state.i>=state.questions.length)return finish();const w=state.questions[state.i];const type=shuffle(["meaning","synonym","antonym","example"])[0];let opts;
+if(type==="meaning"){opts=shuffle([w[1],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[1])]);state.correct=w[1];state.prompt="What is the meaning of “"+w[0]+"”?";state.mode=type}
+if(type==="synonym"){opts=shuffle([w[2],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[2])]);state.correct=w[2];state.prompt="Choose the closest synonym of “"+w[0]+"”.";state.mode=type}
+if(type==="antonym"){opts=shuffle([w[3],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[3])]);state.correct=w[3];state.prompt="Choose the closest antonym of “"+w[0]+"”.";state.mode=type}
+if(type==="example"){opts=shuffle([w[4],...shuffle(W.filter(x=>x[0]!==w[0])).slice(0,3).map(x=>x[4])]);state.correct=w[4];state.prompt="Which sentence uses “"+w[0]+"” correctly?";state.mode=type}
 state.seconds=20;
-$("#quizCard").innerHTML='<div class="quiz-head"><span class="qmeta">Question '+(state.i+1)+' of '+state.questions.length+'</span><span class="timer" id="timer">00:20</span></div><div class="progress"><i style="width:'+((state.i)/state.questions.length*100)+'%"></i></div><div class="qmeta">'+state.mode.toUpperCase()+'</div><div class="question">'+state.prompt+'</div><div class="options">'+opts.map((o,k)=>'<button class="opt" data-v="'+encodeURIComponent(o)+'">'+String.fromCharCode(65+k)+'. '+o+'</button>').join("")+'</div><div id="fb"></div><div class="nextrow"><span class="qmeta">Banking exam mode</span><button class="secondary" id="skip">Skip</button></div>';
+$("#quizCard").innerHTML='<div class="quiz-head"><span class="qmeta">Question '+(state.i+1)+' of '+state.questions.length+'</span><span class="timer" id="timer">00:20</span></div><div class="progress"><i style="width:'+(state.i/state.questions.length*100)+'%"></i></div><div class="qmeta">'+state.mode.toUpperCase()+' · 🔊 Listen to the word after answering</div><div class="question">'+state.prompt+'</div><div class="options">'+opts.map((o,k)=>'<button class="opt" data-v="'+encodeURIComponent(o)+'">'+String.fromCharCode(65+k)+'. '+o+'</button>').join("")+'</div><div id="fb"></div><div class="nextrow"><span class="qmeta">20 seconds</span><button class="secondary" id="skip">Skip</button></div>';
 document.querySelectorAll(".opt").forEach(b=>b.onclick=()=>answer(decodeURIComponent(b.dataset.v),b));$("#skip").onclick=()=>{state.i++;renderQ()};state.timer=setInterval(()=>{state.seconds--;$("#timer").textContent="00:"+String(state.seconds).padStart(2,"0");if(state.seconds<=0){clearInterval(state.timer);answer("__TIME__",null)}},1000)}
-function answer(v,btn){if(state.answered)return;state.answered=true;clearInterval(state.timer);let ok=v===state.correct;if(ok)state.score++;if(!localStorage.seen100)localStorage.seen100=0;localStorage.seen100=+localStorage.seen100+1;let fb=ok?"Good recall. ":"Review this one. ";if(state.mode==="meaning")fb+=state.questions[state.i][0]+" means “"+state.questions[state.i][1]+"”.";else if(state.mode==="synonym")fb+="The listed synonym is “"+state.questions[state.i][2]+"”.";else if(state.mode==="antonym")fb+="The listed antonym is “"+state.questions[state.i][3]+"”.";else fb+=state.questions[state.i][4];document.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(decodeURIComponent(x.dataset.v)===state.correct)x.classList.add("correct");else if(x===btn)x.classList.add("wrong")});$("#fb").innerHTML='<div class="feedback">'+fb+'</div><div class="actions"><button class="primary" id="next">Next question</button></div>';$("#next").onclick=()=>{state.i++;state.answered=false;renderQ()};}
-function finish(){clearInterval(state.timer);let acc=Math.round(state.score/state.questions.length*100),best=Math.max(acc,+localStorage.best100||0);localStorage.best100=best;save();$("#quizCard").innerHTML='<div class="result"><div class="qmeta">Quiz complete</div><div class="score">'+acc+'%</div><h2>'+state.score+' / '+state.questions.length+' correct</h2><p class="muted">Accuracy matters, but retention matters more. Reattempt the missed words from the 100 Words tab.</p><div class="actions" style="justify-content:center"><button class="primary" id="again">Try again</button><button class="secondary" id="dash">Dashboard</button></div></div>';$("#again").onclick=()=>makeQuestions(state.questions.length);$("#dash").onclick=()=>show("home")}
-function renderWords(q=""){let x=W.filter(w=>w.join(" ").toLowerCase().includes(q.toLowerCase()));$("#wordGrid").innerHTML=x.map((w,i)=>'<article class="word"><small>#'+(W.indexOf(w)+1)+'</small><h3>'+w[0]+'</h3><p><b>Meaning:</b> '+w[1]+'</p><p><b>Synonym:</b> '+w[2]+'</p><p><b>Antonym:</b> '+w[3]+'</p><p><b>Example:</b> '+w[4]+'</p></article>').join("")}
+function answer(v,btn){if(state.answered)return;state.answered=true;clearInterval(state.timer);const w=state.questions[state.i],ok=v===state.correct;if(ok)state.score++;localStorage.seen100=(+localStorage.seen100||0)+1;document.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(decodeURIComponent(x.dataset.v)===state.correct)x.classList.add("correct");else if(x===btn)x.classList.add("wrong")});let fb=ok?"Correct. ":"Review this word. ";fb+=w[0]+" — "+w[1]+".";$("#fb").innerHTML='<div class="feedback"><b>'+fb+'</b><br><span class="muted">'+w[4]+'</span><br><button class="speak" onclick="speak('+JSON.stringify(w[0])+')">🔊 Hear '+w[0]+'</button></div><div class="actions"><button class="primary" id="next">Next question</button></div>';$("#next").onclick=()=>{state.i++;state.answered=false;renderQ()}}
+function finish(){clearInterval(state.timer);const acc=Math.round(state.score/state.questions.length*100),best=Math.max(acc,+localStorage.best100||0);localStorage.best100=best;save();$("#quizCard").innerHTML='<div class="result"><div class="qmeta">Quiz complete</div><div class="score">'+acc+'%</div><h2>'+state.score+' / '+state.questions.length+' correct</h2><p class="muted">Review the words you missed and use the audio buttons in the 100 Words section.</p><div class="actions" style="justify-content:center"><button class="primary" id="again">Try again</button><button class="secondary" id="dash">Dashboard</button></div></div>';$("#again").onclick=()=>makeQuestions(state.questions.length);$("#dash").onclick=()=>show("home")}
+function renderWords(q=""){const x=W.filter(w=>w.join(" ").toLowerCase().includes(q.toLowerCase()));$("#wordGrid").innerHTML=x.map(w=>'<article class="word"><button class="speak" onclick="speak('+JSON.stringify(w[0])+')" title="Pronounce">🔊</button><small>#'+(W.indexOf(w)+1)+'</small><h3>'+w[0]+'</h3><p><b>Meaning:</b> '+w[1]+'</p><p><b>Synonym:</b> '+w[2]+'</p><p><b>Antonym:</b> '+w[3]+'</p><p><b>Example:</b> '+w[4]+'</p></article>').join("")}
 $("#start10").onclick=()=>makeQuestions(10);$("#start20").onclick=()=>makeQuestions(20);$("#search").oninput=e=>renderWords(e.target.value);save();
 </script></body></html>
